@@ -3,6 +3,7 @@
 My solution for "5 days in clouds" hackathon [task](https://5danauoblacima.com/wp-content/uploads/2021/12/5-dana-u-oblacima-challenge-zadatak.pdf).
 For people who don't speak Serbian, the task goes like this:
 - we are given a pricelist of certain cloud services
+
 - those services are:
   1. Serverless function - FUNC </br>
      Commands: EXEC
@@ -23,6 +24,7 @@ For people who don't speak Serbian, the task goes like this:
      Commands: START, STOP </br>
      Payment:
       - tume based (for every second that VM spends in active state)
+
 - we are tasked with making REST API that will support following actions:
   1. POST /actions endpoint - this request is sent whenever a user does some action on the cloud, such as starting VM for example. Each action has defined
      cost, so the app will calculate the cost for that action and store it in actions history.
